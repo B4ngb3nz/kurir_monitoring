@@ -13,8 +13,8 @@ class MainActivity : ComponentActivity() {
 
     private lateinit var fusedLocationClient: FusedLocationProviderClient
 
-    private val SUPABASE_URL = "https://akqbbsnangcxbdktmruk.supabase.co/rest/v1/locations"
-    private val API_KEY = "ISI_API_KEY_ANDA"
+    private val SUPABASE_URL = "https://akqbbsnangcxbdktmruk.supabase.co"
+    private val API_KEY = "sb_publishable_0VC2d_CBQH1q1V9-9-enVg_Avfn2uGP"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
